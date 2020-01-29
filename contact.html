@@ -1,0 +1,154 @@
+<!-- This website is designed to host information for Skyline Inc. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Contact us </title>
+</head>
+
+<body>
+
+    <!-- Defining the Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-logo " href="#">
+                <img src="skyline.png" class="d-inline-block align-middle">
+            </a>
+
+            <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link active" href="index.html"><i class="fa fa-home"></i> Home </a>
+                <a class="nav-item nav-link active" href="about.html">About us</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a class="btn btn-outline-info" href="contact.html"><i class="far fa-envelope"></i> Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- Section: Contact v.1 -->
+        <section class="my-5">
+
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold text-center my-5">Get across to us</h2>
+            <!-- Section description -->
+            <p class="text-center w-responsive mx-auto pb-5"> Let's work together to transform your business using data.
+            </p>
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-lg-5 mb-lg-0 mb-4">
+
+                    <!-- Form with header -->
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Header -->
+                            <div class="form-header blue accent-1">
+                                <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
+                            </div>
+                            <p class="dark-grey-text">We promise to get back to you asap.</p>
+                            <!-- Body -->
+                            <form action="https://formspree.io/mknrnjwg" method="POST">
+                                <div class="md-form">
+
+                                    <i class="fas fa-user prefix grey-text"></i>
+                                    <input type="text" id="form-name" class="form-control" name="Sender's name">
+                                    <label for="form-name">Your name</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input type="text" id="form-email" class="form-control" name="Sender's email">
+                                    <label for="form-email">Your email</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-tag prefix grey-text"></i>
+                                    <input type="text" id="form-Subject" class="form-control" name="Message Subject">
+                                    <label for="form-Subject">Subject</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                    <textarea id="form-text" class="form-control md-textarea" rows="3"
+                                        name="Message body"></textarea>
+                                    <label for="form-text">Type message</label>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Form with header -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-lg-7">
+
+                    <!--Google map-->
+                    <div id="map-container-section" class="z-depth-1-half map-container-section mb-4"
+                        style="height: 400px">
+                        <iframe
+                            src="https://maps.google.com/maps?q=Midtown%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!-- Buttons-->
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a class="btn-floating blue accent-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                            <p>New York, 10022</p>
+                            <p class="mb-md-0">United States</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn-floating blue accent-1">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                            <p>+ 1 123 456 7890</p>
+                            <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn-floating blue accent-1">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <p>info@skyline.com</p>
+                            <p class="mb-0">biz@skyline.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </section>
+        <!-- Section: Contact v.1 -->
+    </div>
+    <hr>
+    <footer class="container">
+        <p>© Skyline Inc. 2017-2020 </p>
+    </footer>
+</body>
+
+</html>
